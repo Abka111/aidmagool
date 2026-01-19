@@ -770,7 +770,7 @@ sustainable development
 </div>
 
 
-<div className="social-container">
+<div className="social-container so">
   <div className="triangle" id='red'>
     <a href="https://www.facebook.com/share/17A2RieCsJ/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-facebook-f"></i>
@@ -784,7 +784,7 @@ sustainable development
   </div>
 </div>
 
-<div className="social-container">
+<div className="social-container so">
   <div className="triangle" id='blue'>
     <a href="https://www.facebook.com/share/17A2RieCsJ/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-facebook-f"></i>
@@ -798,7 +798,7 @@ sustainable development
   </div>
 </div>
 
-<div className="social-container">
+<div className="social-container so">
   <div className="triangle" id='red'>
     <a href="https://www.facebook.com/share/17A2RieCsJ/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-facebook-f"></i>

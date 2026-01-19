@@ -291,6 +291,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .scroll-indicator .scroll-text {
+    display: none;
+  }
+}
+
+
 
 
 .white-side-text {
@@ -825,6 +832,12 @@
 
 .social-container #blue{
   background-color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+  .so {
+    display: none;
+  }
 }
 
 
