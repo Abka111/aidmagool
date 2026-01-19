@@ -64,6 +64,12 @@ import sa30 from '../src/30.png';
 import sa31 from '../src/31.png';
 // import sa32 from '../src/32.png';
 
+// import { initDonationHandler } from "./utils/donationHandler";
+// import DonationSection from "./DonationSection.jsx";
+
+  // useEffect(() => {
+  //   initDonationHandler();
+  // }, []);
 
 const Navbar = () => {
   const [diamondMode, setDiamondMode] = useState(false);
@@ -256,6 +262,7 @@ const Navbar = () => {
     });
   };
 }, []);
+
 
 // Wash section counter
   
@@ -1158,7 +1165,7 @@ sustainable development
       
       <div class="food-header-image">
         {/* <img src="your-top-image.jpg" alt="Food Security" /> */}
-        <img src={food} alt="John Smith" class="" />
+        <img src={food} alt="" class="" />
       </div>
 
       
@@ -1221,7 +1228,7 @@ sustainable development
 
     <div class="food-counters-image">
       {/* <img src="your-counter-image.jpg" alt="Helping Communities" /> */}
-      <img src={food2} alt="John Smith" class="" />
+      <img src={food2} alt="" class="" />
     </div>
   </div>
 </section>
@@ -1337,6 +1344,8 @@ sustainable development
 
 
   </div>
+
+  
 </section>
 <section className="contact-section" id="contact-section">
   <h2>Contact Info</h2>
