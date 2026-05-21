@@ -1117,7 +1117,7 @@ sustainable development
           <img src={sa9} alt="Logo 9" />
 
           <img src={sa10} alt="Logo 10" />
-          <img src={sa11} alt="Logo 11" />
+          {/* <img src={sa11} alt="Logo 11" /> */}
           {/* <img src={sa12} alt="Logo 12" /> */}
 
            <img src={sa13} alt="Logo 13" />
@@ -1168,7 +1168,7 @@ sustainable development
 
   <div className="diamond__row">
     <div className="tile"><div className="tile__inner"><img src={sa10} alt="Logo 10" /></div></div>
-    <div className="tile"><div className="tile__inner"><img src={sa11} alt="Logo 11" /></div></div>
+    {/* <div className="tile"><div className="tile__inner"><img src={sa11} alt="Logo 11" /></div></div> */}
     {/* <div className="tile"><div className="tile__inner"><img src={sa12} alt="Logo 12" /></div></div> */}
     <div className="tile"><div className="tile__inner"><img src={sa13} alt="Logo 13" /></div></div>
   </div>
