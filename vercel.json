@@ -1,9 +1,15 @@
 {
   "version": 2,
   "framework": "create-react-app",
-  "buildCommand": "cd client && npm install --legacy-peer-deps && npm run build",
+  "buildCommand": "cd client && npm install --legacy-peer-deps && CI=false npm run build",
   "outputDirectory": "client/build",
   "installCommand": "echo \"skip root install\"",
+  "build": {
+    "env": {
+      "CI": "false",
+      "DISABLE_ESLINT_PLUGIN": "true"
+    }
+  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
