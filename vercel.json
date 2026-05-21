@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "framework": "create-react-app",
+  "buildCommand": "cd client && npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "client/build",
+  "installCommand": "echo \"skip root install\"",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

@@ -2401,3 +2401,389 @@
     margin-bottom: 15px;
   }
 }
+
+
+/* ============================
+   About AID — minimalistic
+   ============================ */
+.about-aid {
+  background: #ffffff;
+  padding: 110px 24px 100px;
+  position: relative;
+}
+
+.about-aid-container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.about-aid-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 36px;
+}
+
+.about-aid-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgb(202, 36, 36);
+  white-space: nowrap;
+}
+
+.about-aid-divider {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, rgba(202, 36, 36, 0.45), rgba(202, 36, 36, 0));
+}
+
+.about-aid-heading {
+  font-size: 2.6rem;
+  line-height: 1.18;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: #111;
+  max-width: 880px;
+  margin: 0 0 48px 0;
+}
+
+.about-aid-body {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.about-aid-lead {
+  font-size: 1.25rem;
+  line-height: 1.65;
+  color: #1a1a1a;
+  font-weight: 400;
+  margin: 0;
+}
+
+.about-aid-lead strong {
+  font-weight: 600;
+  color: #111;
+}
+
+.about-aid-text {
+  font-size: 1.02rem;
+  line-height: 1.85;
+  color: #4d4d4d;
+  margin: 0;
+}
+
+.about-aid-highlight {
+  position: relative;
+  font-weight: 600;
+  color: #111;
+  display: inline;
+  background-image: linear-gradient(transparent 62%, rgba(202, 36, 36, 0.18) 62%);
+  padding: 0 2px;
+}
+
+.about-aid-pillars {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+
+.about-aid-pillar {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 28px 28px 28px 0;
+  border-right: 1px solid #ececec;
+}
+
+.about-aid-pillar:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.about-aid-pillar + .about-aid-pillar {
+  padding-left: 28px;
+}
+
+.about-aid-pillar-num {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: rgb(202, 36, 36);
+}
+
+.about-aid-pillar-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  letter-spacing: -0.005em;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .about-aid {
+    padding: 84px 24px 72px;
+  }
+
+  .about-aid-heading {
+    font-size: 2.05rem;
+    margin-bottom: 36px;
+  }
+
+  .about-aid-body {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .about-aid-lead {
+    font-size: 1.15rem;
+  }
+
+  .about-aid-pillars {
+    margin-top: 56px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .about-aid {
+    padding: 60px 20px 56px;
+  }
+
+  .about-aid-header {
+    margin-bottom: 24px;
+    gap: 12px;
+  }
+
+  .about-aid-label {
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+  }
+
+  .about-aid-heading {
+    font-size: 1.55rem;
+    line-height: 1.25;
+    margin-bottom: 28px;
+  }
+
+  .about-aid-lead {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+
+  .about-aid-text {
+    font-size: 0.97rem;
+    line-height: 1.75;
+  }
+
+  .about-aid-body {
+    gap: 22px;
+  }
+
+  .about-aid-pillars {
+    margin-top: 40px;
+    grid-template-columns: 1fr;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .about-aid-pillar {
+    padding: 20px 0;
+    border-right: none;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .about-aid-pillar:last-child {
+    border-bottom: none;
+  }
+
+  .about-aid-pillar + .about-aid-pillar {
+    padding-left: 0;
+  }
+}
+
+
+/* ============================
+   Our Approach — minimalistic
+   ============================ */
+.approach {
+  background: #fafafa;
+  padding: 110px 24px 100px;
+}
+
+.approach-container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.approach-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 36px;
+}
+
+.approach-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgb(202, 36, 36);
+  white-space: nowrap;
+}
+
+.approach-divider {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, rgba(202, 36, 36, 0.45), rgba(202, 36, 36, 0));
+}
+
+.approach-heading {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: #111;
+  max-width: 820px;
+  margin: 0 0 60px 0;
+}
+
+.approach-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.approach-item {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 56px;
+  padding: 40px 0;
+  border-top: 1px solid #e6e6e6;
+}
+
+.approach-item:last-child {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.approach-item-side {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.approach-item-num {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: rgb(202, 36, 36);
+  text-transform: uppercase;
+}
+
+.approach-item-icon {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.approach-item-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #111;
+  letter-spacing: -0.01em;
+  margin: 0;
+  line-height: 1.25;
+}
+
+.approach-item-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.approach-item-body p {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: #4d4d4d;
+  margin: 0;
+  max-width: 700px;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .approach {
+    padding: 84px 24px 72px;
+  }
+
+  .approach-heading {
+    font-size: 1.95rem;
+    margin-bottom: 44px;
+  }
+
+  .approach-item {
+    grid-template-columns: 240px 1fr;
+    gap: 36px;
+    padding: 32px 0;
+  }
+
+  .approach-item-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .approach {
+    padding: 60px 20px 56px;
+  }
+
+  .approach-header {
+    margin-bottom: 24px;
+    gap: 12px;
+  }
+
+  .approach-label {
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+  }
+
+  .approach-heading {
+    font-size: 1.55rem;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
+
+  .approach-item {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 28px 0;
+  }
+
+  .approach-item-side {
+    gap: 8px;
+  }
+
+  .approach-item-num {
+    font-size: 0.72rem;
+  }
+
+  .approach-item-icon {
+    font-size: 1.35rem;
+  }
+
+  .approach-item-title {
+    font-size: 1.15rem;
+  }
+
+  .approach-item-body {
+    gap: 14px;
+  }
+
+  .approach-item-body p {
+    font-size: 0.97rem;
+    line-height: 1.75;
+  }
+}

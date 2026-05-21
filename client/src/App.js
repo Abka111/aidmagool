@@ -356,6 +356,8 @@ useEffect(() => {
         </div>
         <ul className="navbar-links">
           <li><a href="#hero">Home</a></li>
+          <li><a href="#about-aid">About AID</a></li>
+          <li><a href="#approach">Our Approach</a></li>
           <li><a href="#get-involved">Get Involved</a></li>
           <li className="dropdown">
   <a href="#our-story" className="story-toggle">
@@ -414,10 +416,169 @@ useEffect(() => {
   <span className="circle circle2"></span>
 </div>
 
-       
+
       </section>
 
-      
+
+      <section className="about-aid" id="about-aid">
+        <div className="about-aid-container">
+          <div className="about-aid-header">
+            <span className="about-aid-label">About AID</span>
+            <span className="about-aid-divider"></span>
+          </div>
+
+          <h2 className="about-aid-heading">
+            A national, woman-led humanitarian and development organization rooted in Ethiopia.
+          </h2>
+
+          <div className="about-aid-body">
+            <p className="about-aid-lead">
+              <strong>Aid for Integrated Development (AID)</strong> is a national, woman-led,
+              humanitarian and development organization operating in Ethiopia, committed to
+              improving the lives, dignity, and resilience of vulnerable communities.
+            </p>
+
+            <p className="about-aid-text">
+              AID was established on the belief that sustainable change happens when emergency
+              humanitarian response and long-term development interventions are linked together.
+              Our work is guided by the{" "}
+              <span className="about-aid-highlight">Humanitarian–Development–Peace (HDP) Nexus</span>,
+              recognizing that communities affected by crisis need not only immediate assistance,
+              but also sustainable systems, resilience, and opportunities for recovery and peace.
+            </p>
+          </div>
+
+          <div className="about-aid-pillars">
+            <div className="about-aid-pillar">
+              <span className="about-aid-pillar-num">01</span>
+              <span className="about-aid-pillar-text">Humanitarian Response</span>
+            </div>
+            <div className="about-aid-pillar">
+              <span className="about-aid-pillar-num">02</span>
+              <span className="about-aid-pillar-text">Sustainable Development</span>
+            </div>
+            <div className="about-aid-pillar">
+              <span className="about-aid-pillar-num">03</span>
+              <span className="about-aid-pillar-text">Peace &amp; Resilience</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="approach" id="approach">
+        <div className="approach-container">
+          <div className="approach-header">
+            <span className="approach-label">Our Approach</span>
+            <span className="approach-divider"></span>
+          </div>
+
+          <h2 className="approach-heading">
+            How we deliver lasting change for the communities we serve.
+          </h2>
+
+          <div className="approach-list">
+
+            <article className="approach-item">
+              <aside className="approach-item-side">
+                <span className="approach-item-num">01</span>
+                <h3 className="approach-item-title">Integrated Solutions</h3>
+              </aside>
+              <div className="approach-item-body">
+                <p>
+                  We use a multi-sectoral approach that integrates WASH, Health and Nutrition,
+                  Education, Livelihoods, Protection, Governance, and Capacity Building rather
+                  than treating problems separately.
+                </p>
+                <p>
+                  We believe poverty and vulnerability are interconnected, and therefore
+                  solutions must also be interconnected. By addressing multiple needs at the
+                  same time, communities recover faster, resilience is strengthened, resources
+                  are optimized, coordination improves, and long-term development becomes more
+                  sustainable.
+                </p>
+              </div>
+            </article>
+
+            <article className="approach-item">
+              <aside className="approach-item-side">
+                <span className="approach-item-num">02</span>
+                <h3 className="approach-item-title">Community-Driven Interventions</h3>
+              </aside>
+              <div className="approach-item-body">
+                <p>
+                  At AID, communities are not simply beneficiaries, they are partners and
+                  drivers of change.
+                </p>
+                <p>
+                  We actively engage communities, local leaders, women, youth, and persons
+                  with disabilities in assessments, planning, implementation, and monitoring
+                  processes. This promotes ownership, accountability, dignity, inclusion, and
+                  culturally appropriate solutions that are sustainable and locally accepted.
+                </p>
+              </div>
+            </article>
+
+            <article className="approach-item">
+              <aside className="approach-item-side">
+                <span className="approach-item-num">03</span>
+                <h3 className="approach-item-title">Innovative Solutions</h3>
+              </aside>
+              <div className="approach-item-body">
+                <p>
+                  AID adapts interventions to local realities through flexible,
+                  context-specific, and innovative approaches.
+                </p>
+                <p>
+                  We promote the use of local knowledge, technology, renewable energy,
+                  climate-smart practices, and creative delivery mechanisms to improve
+                  efficiency, reduce costs, and strengthen sustainability. Our innovative
+                  approaches help us respond quickly in emergencies while building long-term
+                  systems that communities can manage independently, especially in fragile and
+                  hard-to-reach areas.
+                </p>
+              </div>
+            </article>
+
+            <article className="approach-item">
+              <aside className="approach-item-side">
+                <span className="approach-item-icon" aria-hidden="true">🏛️</span>
+                <h3 className="approach-item-title">Institutional Strength</h3>
+              </aside>
+              <div className="approach-item-body">
+                <p>
+                  AID has established governance, safeguarding, compliance, MEAL, financial
+                  management, procurement, and accountability systems that support transparent,
+                  effective, and responsible implementation. The organization continues to
+                  strengthen its systems, staff capacity, and partnerships in line with national
+                  laws and international standards.
+                </p>
+              </div>
+            </article>
+
+            <article className="approach-item">
+              <aside className="approach-item-side">
+                <span className="approach-item-icon" aria-hidden="true">🤝</span>
+                <h3 className="approach-item-title">Partnership and Collaboration</h3>
+              </aside>
+              <div className="approach-item-body">
+                <p>
+                  AID works collaboratively with communities, government institutions, UN
+                  agencies, INGOs, civil society organizations, and local stakeholders to
+                  create sustainable and inclusive impact.
+                </p>
+                <p>
+                  Through locally led action, innovation, accountability, and strong
+                  partnerships, AID remains committed to building resilient communities and
+                  lasting change.
+                </p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
 
       <div className="white-side-text">
           <h2>BUILDING RECELIENCE, FORTERING PROGRESS</h2>
