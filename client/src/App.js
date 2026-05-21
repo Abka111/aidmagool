@@ -73,9 +73,19 @@ import sa31 from '../src/31.png';
 
 const Navbar = () => {
   const [diamondMode, setDiamondMode] = useState(false);
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const closeMobileNav = () => setMobileNavOpen(false);
+  useEffect(() => {
+    if (mobileNavOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => { document.body.style.overflow = ""; };
+  }, [mobileNavOpen]);
   useEffect(() => {
     const cleanup = initPartnersToggle();
-    return cleanup; 
+    return cleanup;
   }, []);
   
   
@@ -348,83 +358,110 @@ useEffect(() => {
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 />
 
-      <nav className="navbar">
+      <nav className={`navbar ${mobileNavOpen ? "is-open" : ""}`}>
         <div className="navbar-brand">
           <img src={logo} alt="AID Logo" className="navbar-logo" />
           <span className="navbar-title">AID</span>
-          
         </div>
-        <ul className="navbar-links">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about-aid">About AID</a></li>
-          <li><a href="#approach">Our Approach</a></li>
-          <li><a href="#get-involved">Get Involved</a></li>
-          <li className="dropdown">
-  <a href="#our-story" className="story-toggle">
-    Our Story <span className="arrow">▾</span>
-  </a>
-  <ul className="submenu">
-    <li><a href="#how-we-work">How We Work</a></li>
-    <li><a href="#our-story">Our Story</a></li>
-    <li><a href="#purpose">Our Purpose</a></li>
-  </ul>
-</li>
 
-          <li><a href="#mission">Our Mission</a></li>
-          <li><a href="#team">Meet the Team</a></li>
-          <li><a href="#resource-section">Resources</a></li>
-          <li><a href="#PARTNERS">our partners</a></li>
-          <li className="dropdown">
-  <a href="#impact-section" className="impact-toggle">
-    Our Impact <span className="arrow">▾</span>
-  </a>
-  <ul className="submenu">
-    <li><a href="#achievement">Achievement</a></li>
-    <li><a href="#education">Education & Protection</a></li>
-    <li><a href="#health">Health & Nutrition</a></li>
-    <li><a href="#food-section">Food and livelihoods</a></li>
-    <li><a href="#wash-section">WASH AND ES & NFI </a></li>
-  </ul>
-</li>
+        <button
+          type="button"
+          className={`navbar-toggle ${mobileNavOpen ? "is-active" : ""}`}
+          aria-label="Toggle menu"
+          aria-expanded={mobileNavOpen}
+          onClick={() => setMobileNavOpen((v) => !v)}
+        >
+          <span className="navbar-toggle-bar"></span>
+          <span className="navbar-toggle-bar"></span>
+          <span className="navbar-toggle-bar"></span>
+        </button>
 
-          
-          
-          
-          <li><a href="#contact-section">Contact & Connect</a></li>
-          <li className="don"><a href="#donation-section">Donate</a></li>
+        <div
+          className={`navbar-backdrop ${mobileNavOpen ? "is-visible" : ""}`}
+          onClick={closeMobileNav}
+          aria-hidden="true"
+        ></div>
+
+        <ul className={`navbar-links ${mobileNavOpen ? "is-open" : ""}`}>
+          <li><a href="#hero" onClick={closeMobileNav}>Home</a></li>
+          <li><a href="#about-aid" onClick={closeMobileNav}>About AID</a></li>
+          <li><a href="#approach" onClick={closeMobileNav}>Our Approach</a></li>
+          <li><a href="#get-involved" onClick={closeMobileNav}>Get Involved</a></li>
+          <li className="dropdown">
+            <a href="#our-story" className="story-toggle" onClick={closeMobileNav}>
+              Our Story <span className="arrow">▾</span>
+            </a>
+            <ul className="submenu">
+              <li><a href="#how-we-work" onClick={closeMobileNav}>How We Work</a></li>
+              <li><a href="#our-story" onClick={closeMobileNav}>Our Story</a></li>
+              <li><a href="#purpose" onClick={closeMobileNav}>Our Purpose</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#mission" onClick={closeMobileNav}>Our Mission</a></li>
+          <li><a href="#team" onClick={closeMobileNav}>Meet the Team</a></li>
+          <li><a href="#resource-section" onClick={closeMobileNav}>Resources</a></li>
+          <li><a href="#PARTNERS" onClick={closeMobileNav}>our partners</a></li>
+          <li className="dropdown">
+            <a href="#impact-section" className="impact-toggle" onClick={closeMobileNav}>
+              Our Impact <span className="arrow">▾</span>
+            </a>
+            <ul className="submenu">
+              <li><a href="#achievement" onClick={closeMobileNav}>Achievement</a></li>
+              <li><a href="#education" onClick={closeMobileNav}>Education & Protection</a></li>
+              <li><a href="#health" onClick={closeMobileNav}>Health & Nutrition</a></li>
+              <li><a href="#food-section" onClick={closeMobileNav}>Food and livelihoods</a></li>
+              <li><a href="#wash-section" onClick={closeMobileNav}>WASH AND ES & NFI </a></li>
+            </ul>
+          </li>
+
+          <li><a href="#contact-section" onClick={closeMobileNav}>Contact & Connect</a></li>
+          <li className="don"><a href="#donation-section" onClick={closeMobileNav}>Donate</a></li>
         </ul>
       </nav>
 
       {/* Hero Section inside Navbar file */}
       <section className="hero" id="hero">
-  <div className="hero-content">
-    <h1>WELCOME TO AID</h1>
-    <p className="hero-paragraph">
-      At AID, we believe every individual deserves dignity, opportunity, and a future filled with hope.
-      We work where others turn away — in the forgotten corners of society where a single act of kindness
-      can transform entire communities. Through education, health, and sustainable aid, we aim to ignite
-      lasting change and rewrite futures with compassion at the core.
-    </p>
-  </div>
+        <div className="hero-bg" aria-hidden="true"></div>
+        <div className="hero-overlay-layer" aria-hidden="true"></div>
 
+        <div className="hero-inner">
+          <span className="hero-eyebrow">
+            <span className="hero-eyebrow-dot"></span>
+            Aid for Integrated Development
+          </span>
 
+          <h1 className="hero-title">
+            Welcome to <span className="hero-title-accent">AID</span>
+          </h1>
 
-        
-      <div className="scroll-indicator">
-  <span className="scroll-text">SCROLL</span>
-  <span className="circle circle1"></span>
-  <span className="circle circle2"></span>
-</div>
+          <p className="hero-paragraph">
+            At AID, we believe every individual deserves dignity, opportunity, and a future filled with hope.
+            We work where others turn away — in the forgotten corners of society where a single act of kindness
+            can transform entire communities. Through education, health, and sustainable aid, we aim to ignite
+            lasting change and rewrite futures with compassion at the core.
+          </p>
 
+          <div className="hero-cta">
+            <a href="#about-aid" className="hero-btn hero-btn-primary">Discover Our Work</a>
+            <a href="#donation-section" className="hero-btn hero-btn-secondary">Donate Now</a>
+          </div>
+        </div>
 
+        <a href="#about-aid" className="scroll-indicator" aria-label="Scroll to next section">
+          <span className="scroll-text">SCROLL</span>
+          <span className="circle circle1"></span>
+          <span className="circle circle2"></span>
+        </a>
       </section>
 
 
       <section className="about-aid" id="about-aid">
         <div className="about-aid-container">
           <div className="about-aid-header">
+            <span className="about-aid-divider-line"></span>
             <span className="about-aid-label">About AID</span>
-            <span className="about-aid-divider"></span>
+            <span className="about-aid-divider-line"></span>
           </div>
 
           <h2 className="about-aid-heading">
@@ -469,8 +506,9 @@ useEffect(() => {
       <section className="approach" id="approach">
         <div className="approach-container">
           <div className="approach-header">
+            <span className="approach-divider-line"></span>
             <span className="approach-label">Our Approach</span>
-            <span className="approach-divider"></span>
+            <span className="approach-divider-line"></span>
           </div>
 
           <h2 className="approach-heading">
@@ -580,12 +618,16 @@ useEffect(() => {
       </section>
 
 
-      <div className="white-side-text">
-          <h2>BUILDING RECELIENCE, FORTERING PROGRESS</h2>
-          <p>Improving the lives of those affected
-by various challenges such as conflicts,
-natural disasters and social issues.</p>
+      <section className="tagline-strip">
+        <div className="tagline-strip-inner">
+          <span className="tagline-strip-eyebrow">Our Commitment</span>
+          <h2 className="tagline-strip-title">BUILDING RECELIENCE, FORTERING PROGRESS</h2>
+          <p className="tagline-strip-text">
+            Improving the lives of those affected by various challenges such as
+            conflicts, natural disasters and social issues.
+          </p>
         </div>
+      </section>
 
 
   
