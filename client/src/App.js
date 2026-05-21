@@ -41,7 +41,7 @@ import sa7 from '../src/7.png';
 // import sa8 from '../src/8.png';
 import sa9 from '../src/9.png';
 import sa10 from '../src/10.png';
-import sa11 from '../src/11.png';
+// import sa11 from '../src/11.png';
 // import sa12 from '../src/12.png';
 import sa13 from '../src/13.png';
 import sa14 from '../src/14.png';
