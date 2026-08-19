@@ -1,16 +1,7 @@
 {
-  "version": 2,
-  "framework": "create-react-app",
-  "buildCommand": "cd client && npm install --legacy-peer-deps && CI=false npm run build",
-  "outputDirectory": "client/build",
-  "installCommand": "echo \"skip root install\"",
-  "build": {
-    "env": {
-      "CI": "false",
-      "DISABLE_ESLINT_PLUGIN": "true"
-    }
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "cd web && npm install && npm run build",
+  "outputDirectory": "web/.next",
+  "installCommand": "echo \"root install skipped, the app installs its own deps\""
 }
