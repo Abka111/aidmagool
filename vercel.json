@@ -1,7 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "nextjs",
-  "buildCommand": "cd web && npm install && npm run build",
-  "outputDirectory": "web/.next",
-  "installCommand": "echo \"root install skipped, the app installs its own deps\""
+  "framework": "nextjs"
 }
