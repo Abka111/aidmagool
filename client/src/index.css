@@ -799,7 +799,8 @@ a { color: inherit; text-underline-offset: 3px; }
   font-style: normal;
   color: var(--red-600);
   position: relative;
-  white-space: nowrap;
+  /* The accent is editable from the admin, so it has to be free to wrap.
+     Pinning it to one line overflowed the column as soon as it got longer. */
 }
 
 .hero-title em::after {
@@ -1445,6 +1446,8 @@ a { color: inherit; text-underline-offset: 3px; }
 .social-btn {
   display: grid;
   place-items: center;
+  justify-content: center;
+  gap: 0;
   width: 44px;
   height: 44px;
   border: 1px solid var(--rule-strong);
@@ -2068,6 +2071,14 @@ a { color: inherit; text-underline-offset: 3px; }
 .footer-col svg { width: 15px; height: 15px; color: var(--red-500); flex: none; }
 
 .footer-social { display: flex; flex-wrap: wrap; gap: var(--s2); }
+
+/* The generic .footer-col a rule above is more specific than .social-btn, so
+   without this the square icon buttons become left aligned inline-flex rows. */
+.footer-social a {
+  display: grid;
+  place-items: center;
+  gap: 0;
+}
 
 .footer-bottom {
   display: flex;
