@@ -1,0 +1,838 @@
+{
+  "home.hero": {
+    "titleLine": "We work where",
+    "titleAccent": "others turn away.",
+    "lead": "At AID, we believe every individual deserves dignity, opportunity, and a future filled with hope. We work in the forgotten corners of society where a single act of kindness can transform entire communities, igniting lasting change through education, health, and sustainable aid.",
+    "image": "/uploads/humanitarian-day.jpg",
+    "imageAlt": "AID staff standing together behind a World Humanitarian Day banner",
+    "badgeValue": 2824362,
+    "badgeLabel": "people reached since inception",
+    "primaryLabel": "Donate Now",
+    "primaryLink": "/donate",
+    "secondaryLabel": "Discover our work",
+    "secondaryLink": "/about"
+  },
+  "home.heroFigures": {
+    "items": [
+      {
+        "label": "Women reached",
+        "value": "1553399",
+        "animate": true
+      },
+      {
+        "label": "Men reached",
+        "value": "1270963",
+        "animate": true
+      },
+      {
+        "label": "Programme sectors",
+        "value": "06",
+        "animate": false
+      },
+      {
+        "label": "Partner organizations",
+        "value": "28",
+        "animate": false
+      }
+    ]
+  },
+  "home.about": {
+    "eyebrow": "About AID",
+    "title": "A national, woman-led humanitarian and development organization rooted in Ethiopia.",
+    "leadText": "<p><strong>Aid for Integrated Development (AID)</strong> is a national, woman-led, humanitarian and development organization operating in Ethiopia, committed to improving the lives, dignity, and resilience of vulnerable communities.</p>",
+    "body": "<p>AID was established on the belief that sustainable change happens when emergency humanitarian response and long-term development interventions are linked together. Our work is guided by the <strong>Humanitarian, Development and Peace (HDP) Nexus</strong>, recognizing that communities affected by crisis need not only immediate assistance, but also sustainable systems, resilience, and opportunities for recovery and peace.</p>",
+    "ctaLabel": "Read our full story",
+    "ctaLink": "/about"
+  },
+  "home.pillars": {
+    "items": [
+      {
+        "icon": "HeartHandshake",
+        "num": "01",
+        "text": "Humanitarian Response"
+      },
+      {
+        "icon": "Sprout",
+        "num": "02",
+        "text": "Sustainable Development"
+      },
+      {
+        "icon": "Shield",
+        "num": "03",
+        "text": "Peace and Resilience"
+      }
+    ]
+  },
+  "home.sectors": {
+    "eyebrow": "What We Do",
+    "title": "Five sectors, one integrated response.",
+    "lead": "Poverty and vulnerability are interconnected, so our programmes are designed to work together rather than in isolation.",
+    "items": [
+      {
+        "icon": "Droplets",
+        "title": "WASH and ES and NFI",
+        "text": "Boreholes, birkas, solar schemes and public water points, paired with hygiene promotion.",
+        "link": "/impact#wash"
+      },
+      {
+        "icon": "Stethoscope",
+        "title": "Health and Nutrition",
+        "text": "Primary health services, mobile health and nutrition teams, and emergency ambulances.",
+        "link": "/impact#health"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Education and Protection",
+        "text": "Learning materials, teacher training, and protection services for displaced families.",
+        "link": "/impact#education"
+      },
+      {
+        "icon": "Salad",
+        "title": "Food and Livelihoods",
+        "text": "Cash assistance, emergency rations, agricultural inputs and climate-smart training.",
+        "link": "/impact#food"
+      },
+      {
+        "icon": "Shield",
+        "title": "Disaster Risk Reduction",
+        "text": "Preparedness and resilience work that reduces the cost of the next shock.",
+        "link": "/about#approach"
+      }
+    ]
+  },
+  "home.commitment": {
+    "eyebrow": "Our Commitment",
+    "title": "Building resilience, fostering progress",
+    "text": "Improving the lives of those affected by various challenges such as conflicts, natural disasters and social issues."
+  },
+  "home.banner": {
+    "title": "Supporting the Most Vulnerable",
+    "slides": [
+      {
+        "text": "AID delivers life-changing education, essential health care, and vital food support to the world's most vulnerable populations, igniting hope and restoring dignity in communities often forgotten by society. We are committed to reaching children, families, and entire communities facing hardship, empowering them with the tools, knowledge, and resources they need to build a brighter future. Through our programs, we create lasting change that breaks the cycle of poverty and opens doors to opportunity for generations to come."
+      },
+      {
+        "text": "We don't just provide aid. We cultivate empowerment, spark opportunity, and drive transformation where others see only crisis and despair. By partnering closely with local leaders and organizations, we foster sustainable development that respects cultural identities and nurtures resilience. Our holistic approach addresses immediate needs while building long-term solutions, ensuring communities can thrive independently, adapt to challenges, and create their own path toward prosperity."
+      },
+      {
+        "text": "Every initiative we launch is grounded in compassion, collaboration, and an unshakeable commitment to creating deep, lasting impact. We invest in innovative projects that not only relieve suffering but also promote equity, justice, and human dignity. Together with our supporters and partners, AID is forging a future where hope flourishes, potential is realized, and the most vulnerable are no longer left behind, but stand empowered, resilient, and full of possibility."
+      }
+    ],
+    "ctaLabel": "Join the Movement",
+    "ctaLink": "/get-involved"
+  },
+  "home.involve": {
+    "eyebrow": "Get Involved",
+    "title": "Three ways to stand with us",
+    "lead": "Help today because tomorrow you may be the one who needs helping. Forget what you can get and see what you can give.",
+    "items": [
+      {
+        "icon": "HandCoins",
+        "title": "Make Donation",
+        "text": "Support AID by contributing to provide food, health, and education for vulnerable families.",
+        "link": "/donate"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Fundraising",
+        "text": "Help us raise resources and awareness. Together we can reach more communities in need.",
+        "link": "/contact"
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Become A Volunteer",
+        "text": "Join our dedicated volunteers and change lives with your time and skills.",
+        "link": "/contact"
+      }
+    ]
+  },
+  "home.partners": {
+    "eyebrow": "Our Partners",
+    "title": "Trusted by those we work with",
+    "ctaLabel": "See all partners"
+  },
+  "home.blogTeaser": {
+    "eyebrow": "From the Blog",
+    "title": "Field notes and programme updates",
+    "ctaLabel": "All posts"
+  },
+  "home.closingCta": {
+    "title": "Every contribution keeps a programme running.",
+    "text": "Your support provides education, protection, clean water and hope for vulnerable children and families across Ethiopia.",
+    "primaryLabel": "Donate Now",
+    "primaryLink": "/donate",
+    "secondaryLabel": "Talk to our team",
+    "secondaryLink": "/contact"
+  },
+  "about.head": {
+    "eyebrow": "About AID",
+    "title": "A national, woman-led organization rooted in Ethiopia.",
+    "lead": "Aid for Integrated Development links emergency humanitarian response with long-term development, so that recovery does not stop when the crisis leaves the headlines."
+  },
+  "about.intro": {
+    "leadText": "<p><strong>Aid for Integrated Development (AID)</strong> is a national, woman-led, humanitarian and development organization operating in Ethiopia, committed to improving the lives, dignity, and resilience of vulnerable communities.</p>",
+    "body": "<p>AID was established on the belief that sustainable change happens when emergency humanitarian response and long-term development interventions are linked together. Our work is guided by the <strong>Humanitarian, Development and Peace (HDP) Nexus</strong>, recognizing that communities affected by crisis need not only immediate assistance, but also sustainable systems, resilience, and opportunities for recovery and peace.</p>"
+  },
+  "about.pillars": {
+    "items": [
+      {
+        "icon": "HeartHandshake",
+        "num": "01",
+        "text": "Humanitarian Response"
+      },
+      {
+        "icon": "Sprout",
+        "num": "02",
+        "text": "Sustainable Development"
+      },
+      {
+        "icon": "Shield",
+        "num": "03",
+        "text": "Peace and Resilience"
+      }
+    ]
+  },
+  "about.approach": {
+    "eyebrow": "Our Approach",
+    "title": "How we deliver lasting change for the communities we serve.",
+    "items": [
+      {
+        "icon": "Layers",
+        "title": "Integrated Solutions",
+        "body": "<p>We use a multi-sectoral approach that integrates WASH, Health and Nutrition, Education, Livelihoods, Protection, Governance, and Capacity Building rather than treating problems separately.</p><p>We believe poverty and vulnerability are interconnected, and therefore solutions must also be interconnected. By addressing multiple needs at the same time, communities recover faster, resilience is strengthened, resources are optimized, coordination improves, and long-term development becomes more sustainable.</p>"
+      },
+      {
+        "icon": "Users",
+        "title": "Community-Driven Interventions",
+        "body": "<p>At AID, communities are not simply beneficiaries, they are partners and drivers of change.</p><p>We actively engage communities, local leaders, women, youth, and persons with disabilities in assessments, planning, implementation, and monitoring processes. This promotes ownership, accountability, dignity, inclusion, and culturally appropriate solutions that are sustainable and locally accepted.</p>"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Innovative Solutions",
+        "body": "<p>AID adapts interventions to local realities through flexible, context-specific, and innovative approaches.</p><p>We promote the use of local knowledge, technology, renewable energy, climate-smart practices, and creative delivery mechanisms to improve efficiency, reduce costs, and strengthen sustainability. Our innovative approaches help us respond quickly in emergencies while building long-term systems that communities can manage independently, especially in fragile and hard-to-reach areas.</p>"
+      },
+      {
+        "icon": "Building2",
+        "title": "Institutional Strength",
+        "body": "<p>AID has established governance, safeguarding, compliance, MEAL, financial management, procurement, and accountability systems that support transparent, effective, and responsible implementation. The organization continues to strengthen its systems, staff capacity, and partnerships in line with national laws and international standards.</p>"
+      },
+      {
+        "icon": "Handshake",
+        "title": "Partnership and Collaboration",
+        "body": "<p>AID works collaboratively with communities, government institutions, UN agencies, INGOs, civil society organizations, and local stakeholders to create sustainable and inclusive impact.</p><p>Through locally led action, innovation, accountability, and strong partnerships, AID remains committed to building resilient communities and lasting change.</p>"
+      }
+    ]
+  },
+  "about.howWeWork": {
+    "eyebrow": "How We Work",
+    "title": "Local delivery, global partnership",
+    "body": "<p><strong>AID</strong> is dedicated to serving local communities with effective and impactful solutions, fostering collaboration with beneficiaries, donors, and governmental bodies. Through strategic partnerships with international organizations and NGOs, AID leverages resources and expertise to implement comprehensive projects. Employing a participatory approach, AID engages communities in decision-making processes, ensuring context-specific interventions that empower and enhance ownership.</p>",
+    "image": "/uploads/workshop.jpg",
+    "imageAlt": "AID staff coordinating a programme review"
+  },
+  "about.story": {
+    "eyebrow": "Our Story",
+    "title": "Trusted to deliver where access is hardest.",
+    "intro": "<p>AID works in close collaboration with global development partners, such as UN agencies, national and international NGOs, and multilateral organizations, to deliver both development and humanitarian initiatives. AID is one of the few local organizations eligible for Ethiopia Humanitarian Fund (EHF) direct access. Through these efforts, it has impacted millions of lives, providing life-saving support, enhancing skills, and fostering opportunities for sustainable employment and better livelihoods.</p>",
+    "introImage": "/uploads/field-team.png",
+    "introImageAlt": "AID team members in the field",
+    "rows": [
+      {
+        "title": "Our purpose",
+        "anchor": "purpose",
+        "body": "<p>AID empowers vulnerable communities to enhance their living standards and unlock their full potential. By introducing innovative solutions in WASH and ESNFI, Protection and Education, Health and Nutrition, Food Security and Livelihoods, and Disaster Risk Reduction, AID is transforming the lives of Ethiopia's most vulnerable populations.</p>",
+        "image": "/uploads/water-tower.jpg",
+        "imageAlt": "An elevated water scheme built by AID",
+        "reverse": false
+      },
+      {
+        "title": "How it all started",
+        "anchor": "",
+        "body": "<p>Aid for Integrated Development (AID) is a non-profit, non-governmental organization established in Ethiopia in 2020. AID was first legally registered at the Regional level with the Somali Regional Justice Bureau and later, in 2023, at the national level under the Authority for Civil Society Organizations' Proclamation No. 1113/2019, with registration number 6818. AID is dedicated to improving the lives and livelihoods of vulnerable communities across Ethiopia through its work in key areas such as WASH and ESNFI, food security and livelihoods, education and protection, health and nutrition, and disaster risk reduction. The organization also addresses critical issues such as gender equality, women's empowerment, and climate change adaptation.</p>",
+        "image": "/uploads/staff-group.jpg",
+        "imageAlt": "The AID team",
+        "reverse": true
+      }
+    ]
+  },
+  "about.mission": {
+    "eyebrow": "Our Goal",
+    "title": "Capacity built across every sector we serve.",
+    "body": "<p>We aim to enhance the capacities of the people by implementing multi-sectoral programs, including WASH and ESNFI, Protection and Education, Health and Nutrition, Food security and Livelihood, as well as addressing cross-cutting issues such as gender equality, women empowerment, and climate change adaptations.</p>",
+    "ctaLabel": "See the results",
+    "ctaLink": "/impact",
+    "cards": [
+      {
+        "icon": "Eye",
+        "title": "Vision",
+        "text": "AID envisions an Ethiopia where equal opportunities and resources are available to all, fostering self-sufficiency and an improved quality of life, mainly individuals with disabilities and other vulnerable populations."
+      },
+      {
+        "icon": "Target",
+        "title": "Mission",
+        "text": "Our mission is to empower and support vulnerable communities and give special treatment to individuals with disabilities, to achieve self-sufficiency and sustainable development."
+      }
+    ],
+    "bannerImage": "/uploads/teamwork.jpg",
+    "bannerImageAlt": "AID team and community members working together"
+  },
+  "impact.head": {
+    "eyebrow": "Our Impact",
+    "title": "2,824,362 people reached, and counting.",
+    "lead": "Since its inception AID has worked across hard-to-reach areas of the Somali and Oromia regions, delivering emergency and development programmes side by side."
+  },
+  "impact.achievement": {
+    "eyebrow": "Our Achievement",
+    "title": "2020 impact and beyond",
+    "body": "<p>Since its inception, AID has reached <strong>2,824,362</strong> individuals (<strong>1,553,399 women</strong> and <strong>1,270,963 men</strong>) across hard-to-reach areas.</p><p>In Somali and Oromia regions, AID provided critical support to those affected by both natural and man-made disasters. Through comprehensive emergency and development programs in education, child protection, health and nutrition, WASH, livelihoods, and food security, AID has helped rebuild lives and foster resilience.</p>",
+    "callout": "<p>Throughout its journey, AID has tirelessly provided humanitarian aid and services, driving meaningful and lasting change. Below are some of AID's most impactful achievements.</p>",
+    "mapImage": "/uploads/region-map.png",
+    "mapImageAlt": "Map of the Ethiopian regions where AID operates",
+    "reach": [
+      {
+        "label": "Women reached",
+        "value": 1553399
+      },
+      {
+        "label": "Men reached",
+        "value": 1270963
+      }
+    ]
+  },
+  "impact.education": {
+    "anchor": "education",
+    "eyebrow": "Education and Protection",
+    "title": "Learning that continues, even in crisis.",
+    "lead": "<p>AID collaborates with partners, local governments, NGOs and communities to deliver sustainable development solutions that create lasting impact.</p>",
+    "image": "/uploads/classroom-wide.png",
+    "imageAlt": "A teacher with students in an AID-supported classroom",
+    "imageTall": "/uploads/classroom-tall.png",
+    "imageTallAlt": "Students receiving learning materials",
+    "stats": [
+      {
+        "icon": "BookOpen",
+        "value": 127000,
+        "suffix": "",
+        "label": "students provided with textbooks and learning materials"
+      },
+      {
+        "icon": "Shield",
+        "value": 21000,
+        "suffix": "",
+        "label": "conflict and drought affected IDP children, women, men and their caregivers provided with protection services"
+      },
+      {
+        "icon": "GraduationCap",
+        "value": 150,
+        "suffix": "",
+        "label": "teachers and education officials capacity building"
+      },
+      {
+        "icon": "Backpack",
+        "value": 200000,
+        "suffix": "+",
+        "label": "school aged children supported"
+      }
+    ]
+  },
+  "impact.health": {
+    "anchor": "health",
+    "eyebrow": "Health and Nutrition",
+    "title": "Care that travels to the patient.",
+    "body": "<p>AID is committed to providing comprehensive primary health services through health facilities, Mobile Health and Nutrition teams, and emergency ambulance services.</p><p>The organization has expanded health centers, installed solar power, and promoted disease prevention, clean water access, and health education for high-risk populations.</p>",
+    "images": [
+      {
+        "src": "/uploads/health-1.png",
+        "alt": "Health worker attending to a patient"
+      },
+      {
+        "src": "/uploads/health-2.png",
+        "alt": "Mobile health and nutrition team in the field"
+      }
+    ],
+    "stats": [
+      {
+        "icon": "Stethoscope",
+        "value": 156000,
+        "suffix": "",
+        "label": "Patients reached"
+      },
+      {
+        "icon": "Hospital",
+        "value": 179000,
+        "suffix": "",
+        "label": "People reached with essential health education plans"
+      },
+      {
+        "icon": "Users",
+        "value": 120,
+        "suffix": "",
+        "label": "Health professionals trained"
+      },
+      {
+        "icon": "Syringe",
+        "value": 2100,
+        "suffix": "",
+        "label": "Children vaccinated"
+      },
+      {
+        "icon": "HeartHandshake",
+        "value": 26000,
+        "suffix": "",
+        "label": "Mothers supported"
+      }
+    ]
+  },
+  "impact.food": {
+    "anchor": "food",
+    "eyebrow": "Food and Livelihoods",
+    "title": "Relief today, self-reliance next season.",
+    "body": "<p>AID is committed to enhancing food security and strengthening livelihoods for the most vulnerable communities affected by drought, conflict, and displacement. Our programs provide immediate relief to address urgent food needs while also investing in long-term solutions that help families achieve self-reliance. Through targeted interventions, we support households with emergency food rations, cash-based assistance, agricultural inputs, and vocational skills training. These efforts not only prevent hunger but also empower communities to build resilience and secure a sustainable future.</p><p>In the past year, our Food Security and Livelihoods interventions have reached thousands of people, helping them to overcome food shortages and create stable income sources. Below are some of our key achievements:</p>",
+    "image": "/uploads/food-1.png",
+    "imageAlt": "Food distribution to households",
+    "imageTall": "/uploads/food-2.jpg",
+    "imageTallAlt": "Community members receiving food assistance",
+    "stats": [
+      {
+        "icon": "HandCoins",
+        "value": 7500,
+        "suffix": "",
+        "label": "Households reached with unconditional cash assistance to meet urgent food needs"
+      },
+      {
+        "icon": "Wheat",
+        "value": 12000,
+        "suffix": "",
+        "label": "Households supported with agricultural inputs such as seeds, tools, and fertilizer"
+      },
+      {
+        "icon": "Salad",
+        "value": 25000,
+        "suffix": "",
+        "label": "Individuals received emergency food rations to prevent malnutrition"
+      },
+      {
+        "icon": "Sprout",
+        "value": 3500,
+        "suffix": "",
+        "label": "Beneficiaries trained on climate-smart and modern farming techniques"
+      }
+    ]
+  },
+  "impact.wash": {
+    "anchor": "wash",
+    "eyebrow": "WASH and ES and NFI",
+    "title": "Clean water, built to last",
+    "body": "<p>AID is dedicated to ensuring access to clean water by addressing the specific needs of each area. This is achieved through the construction of boreholes, shallow wells, birkas, and river intakes, all connected to public water points for efficient and reliable access. Some of the most notable recent achievements in the WASH and ESNFI sector include:</p>",
+    "image": "/uploads/water-scheme.png",
+    "imageAlt": "An elevated water tank constructed by AID",
+    "stats": [
+      {
+        "icon": "Droplets",
+        "value": 13,
+        "suffix": "",
+        "label": "Boreholes rehabilitated and expanded"
+      },
+      {
+        "icon": "Droplets",
+        "value": 7,
+        "suffix": "",
+        "label": "Elevated concrete tanks constructed"
+      },
+      {
+        "icon": "Droplets",
+        "value": 425000,
+        "suffix": "",
+        "label": "People reached with hygiene and sanitation promotion campaigns"
+      },
+      {
+        "icon": "Droplets",
+        "value": 6,
+        "suffix": "",
+        "label": "Solar water supply schemes installed"
+      },
+      {
+        "icon": "Droplets",
+        "value": 26000,
+        "suffix": "",
+        "label": "Mothers supported"
+      },
+      {
+        "icon": "Droplets",
+        "value": 12,
+        "suffix": "",
+        "label": "Underground cemented cisterns (birkas) built"
+      },
+      {
+        "icon": "Droplets",
+        "value": 500000,
+        "suffix": "",
+        "label": "Trucked to around 750,000 people"
+      },
+      {
+        "icon": "Droplets",
+        "value": 18,
+        "suffix": "",
+        "label": "Public water points constructed"
+      },
+      {
+        "icon": "Droplets",
+        "value": 75,
+        "suffix": "",
+        "label": "Emergency latrine blocks constructed"
+      }
+    ]
+  },
+  "getInvolved.head": {
+    "eyebrow": "Get Involved",
+    "title": "Together we can make a difference.",
+    "lead": "Help today because tomorrow you may be the one who needs helping. Forget what you can get and see what you can give."
+  },
+  "getInvolved.panel": {
+    "title": "Making a difference",
+    "titleAccent": "together for the future",
+    "text": "Join us in our mission to bring hope, support, and resources to those in need.",
+    "primaryLabel": "Make a Donation",
+    "primaryLink": "/donate",
+    "secondaryLabel": "Volunteer with us",
+    "secondaryLink": "/contact"
+  },
+  "getInvolved.cards": {
+    "items": [
+      {
+        "icon": "HandCoins",
+        "title": "Make Donation",
+        "text": "Support AID by contributing to provide food, health, and education for vulnerable families.",
+        "link": "/donate"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Fundraising",
+        "text": "Help us raise resources and awareness. Together we can reach more communities in need.",
+        "link": "/contact"
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Become A Volunteer",
+        "text": "Join our dedicated volunteers and change lives with your time and skills.",
+        "link": "/contact"
+      }
+    ]
+  },
+  "getInvolved.why": {
+    "eyebrow": "Why It Matters",
+    "title": "Support that reaches the last mile.",
+    "body": "<p>Every contribution is put to work in communities that other responses struggle to reach. Funds are managed through established financial, procurement and accountability systems, and reported against measurable programme results.</p>",
+    "ctaLabel": "See where it goes",
+    "ctaLink": "/impact",
+    "image": "/uploads/volunteers.png",
+    "imageAlt": "Volunteers handing out supplies"
+  },
+  "getInvolved.features": {
+    "items": [
+      {
+        "icon": "Sun",
+        "title": "Together for a Brighter Future",
+        "text": "With dedicated efforts, we bring communities, charities, and supporters together to ensure hope is available to all."
+      },
+      {
+        "icon": "Sprout",
+        "title": "Empowering Change",
+        "text": "Our mission is to mobilize resources, inspire communities, and create opportunities for those in need."
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Transforming Lives",
+        "text": "Action is building a support system to help individuals and groups rise from impactful struggles worldwide."
+      }
+    ]
+  },
+  "team.head": {
+    "eyebrow": "Meet the Team",
+    "title": "The people behind the programmes.",
+    "lead": "Our dedicated team works passionately to improve lives, support vulnerable communities, and create sustainable impact. Every person you see here is committed to the mission of helping others with compassion and integrity."
+  },
+  "team.members": {
+    "items": [
+      {
+        "photo": "/uploads/abdirahman.jpg",
+        "name": "Abdirahman Mohamed Heeban",
+        "role": "Executive Director of AID",
+        "desc": "Provides overall leadership, strategic direction, and decision-making for the organization.",
+        "phone": "+251 91 577 5003",
+        "phoneHref": "tel:+251915775003",
+        "email": "abdirahmanh@aiddev.net"
+      },
+      {
+        "photo": "/uploads/abdimahad.jpg",
+        "name": "Abdimahad Mohamed Abdi",
+        "role": "Deputy Executive Director of AID",
+        "desc": "Supports the Executive Director and oversees specific functions or departments to ensure smooth operations.",
+        "phone": "+251 91 128 6209",
+        "phoneHref": "tel:+251911286209",
+        "email": "abdimahadm@aiddev.net"
+      },
+      {
+        "photo": "/uploads/abdinasir.jpg",
+        "name": "Abdinasir Moalin Abdullahi",
+        "role": "Program Manager",
+        "desc": "Plans, coordinates, and monitors programs or projects to achieve organizational goals and impact.",
+        "phone": "+251 91 510 4100",
+        "phoneHref": "tel:+251915104100",
+        "email": "abdinasiram@aiddev.net"
+      },
+      {
+        "photo": "/uploads/bashir.jpg",
+        "name": "Bashir Abdi Hashi",
+        "role": "Operations and Finance Officer",
+        "desc": "Manages day-to-day operations, budgeting, and financial management to ensure efficiency and accountability.",
+        "phone": "+251 92 022 7101",
+        "phoneHref": "tel:+251920227101",
+        "email": "bashira@aiddev.net"
+      }
+    ]
+  },
+  "partners.head": {
+    "eyebrow": "Our Partners",
+    "title": "Trusted by those we work with.",
+    "lead": "AID works in close collaboration with UN agencies, national and international NGOs, multilateral organizations, government institutions and local stakeholders."
+  },
+  "partners.logos": {
+    "ctaLabel": "Partner with AID",
+    "ctaLink": "/contact",
+    "items": [
+      {
+        "src": "/uploads/partner-1.png",
+        "name": "Partner organization 1"
+      },
+      {
+        "src": "/uploads/partner-2.png",
+        "name": "Partner organization 2"
+      },
+      {
+        "src": "/uploads/partner-3.png",
+        "name": "Partner organization 3"
+      },
+      {
+        "src": "/uploads/partner-4.png",
+        "name": "Partner organization 4"
+      },
+      {
+        "src": "/uploads/partner-5.png",
+        "name": "Partner organization 5"
+      },
+      {
+        "src": "/uploads/partner-6.png",
+        "name": "Partner organization 6"
+      },
+      {
+        "src": "/uploads/partner-7.png",
+        "name": "Partner organization 7"
+      },
+      {
+        "src": "/uploads/partner-8.png",
+        "name": "Partner organization 8"
+      },
+      {
+        "src": "/uploads/partner-9.png",
+        "name": "Partner organization 9"
+      },
+      {
+        "src": "/uploads/partner-10.png",
+        "name": "Partner organization 10"
+      },
+      {
+        "src": "/uploads/partner-11.png",
+        "name": "Partner organization 11"
+      },
+      {
+        "src": "/uploads/partner-12.png",
+        "name": "Partner organization 12"
+      },
+      {
+        "src": "/uploads/partner-13.png",
+        "name": "Partner organization 13"
+      },
+      {
+        "src": "/uploads/partner-14.png",
+        "name": "Partner organization 14"
+      },
+      {
+        "src": "/uploads/partner-15.png",
+        "name": "Partner organization 15"
+      },
+      {
+        "src": "/uploads/partner-16.png",
+        "name": "Partner organization 16"
+      },
+      {
+        "src": "/uploads/partner-17.png",
+        "name": "Partner organization 17"
+      },
+      {
+        "src": "/uploads/partner-18.png",
+        "name": "Partner organization 18"
+      },
+      {
+        "src": "/uploads/partner-19.png",
+        "name": "Partner organization 19"
+      },
+      {
+        "src": "/uploads/partner-20.png",
+        "name": "Partner organization 20"
+      },
+      {
+        "src": "/uploads/partner-21.png",
+        "name": "Partner organization 21"
+      },
+      {
+        "src": "/uploads/partner-22.png",
+        "name": "Partner organization 22"
+      },
+      {
+        "src": "/uploads/partner-23.png",
+        "name": "Partner organization 23"
+      },
+      {
+        "src": "/uploads/partner-24.png",
+        "name": "Partner organization 24"
+      },
+      {
+        "src": "/uploads/partner-25.png",
+        "name": "Partner organization 25"
+      },
+      {
+        "src": "/uploads/partner-26.png",
+        "name": "Partner organization 26"
+      },
+      {
+        "src": "/uploads/partner-27.png",
+        "name": "Partner organization 27"
+      },
+      {
+        "src": "/uploads/partner-28.png",
+        "name": "Partner organization 28"
+      }
+    ]
+  },
+  "resources.head": {
+    "eyebrow": "Resources",
+    "title": "Guides, toolkits and field materials.",
+    "lead": "Access our guides, toolkits, and materials to help you contribute to our mission of helping vulnerable communities."
+  },
+  "resources.items": {
+    "items": [
+      {
+        "icon": "Leaf",
+        "title": "Food Security Guide",
+        "text": "A comprehensive guide to improving food security in vulnerable communities.",
+        "ctaLabel": "Request a copy",
+        "link": "/contact"
+      },
+      {
+        "icon": "Wrench",
+        "title": "Emergency Response Toolkit",
+        "text": "Step-by-step toolkit for handling disaster and crisis situations effectively.",
+        "ctaLabel": "Request a copy",
+        "link": "/contact"
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Volunteer Handbook",
+        "text": "Everything a volunteer needs to know to make a meaningful impact.",
+        "ctaLabel": "Request a copy",
+        "link": "/contact"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Health and Safety Guidelines",
+        "text": "Practical guidelines to ensure health and safety in the field.",
+        "ctaLabel": "Request a copy",
+        "link": "/contact"
+      }
+    ]
+  },
+  "blog.head": {
+    "eyebrow": "Blog",
+    "title": "Field notes, programme updates and analysis.",
+    "lead": "Stories from the woredas where our teams work, written by the people running the programmes."
+  },
+  "donate.head": {
+    "eyebrow": "Donate",
+    "title": "Make a difference today.",
+    "lead": "Your contribution helps us provide education, protection, and hope for vulnerable children and families. Every amount counts."
+  },
+  "donate.settings": {
+    "cardTitle": "Choose how you want to give",
+    "amounts": [
+      {
+        "value": 10
+      },
+      {
+        "value": 25
+      },
+      {
+        "value": 50
+      },
+      {
+        "value": 100
+      }
+    ],
+    "methods": [
+      {
+        "value": "paypal",
+        "label": "PayPal"
+      },
+      {
+        "value": "bank",
+        "label": "Bank Transfer"
+      },
+      {
+        "value": "Commercial Bank of Ethiopia",
+        "label": "Commercial Bank of Ethiopia"
+      },
+      {
+        "value": "Shabelle Bank",
+        "label": "Shabelle Bank"
+      },
+      {
+        "value": "Rays Microfinance",
+        "label": "Rays Microfinance"
+      },
+      {
+        "value": "E-birr",
+        "label": "E-birr"
+      },
+      {
+        "value": "card",
+        "label": "Credit/Debit Card"
+      }
+    ],
+    "helpText": "Transfer details are shared by email once your pledge is confirmed. For large or institutional gifts, write to info@aiddev.net.",
+    "submitLabel": "Donate Now",
+    "successMessage": "Thank you. We have recorded your pledge. Our team will email payment instructions within one working day."
+  },
+  "contact.head": {
+    "eyebrow": "Contact and Connect",
+    "title": "Get in touch.",
+    "lead": "We are here to listen. Share your details below, and our team will reach out to support you as soon as possible."
+  },
+  "contact.offices": {
+    "items": [
+      {
+        "name": "Coordination Office",
+        "city": "Addis Ababa, Ethiopia",
+        "phone": "+251 2527 83968",
+        "phoneHref": "tel:+251252783968",
+        "email": "info@aiddev.net"
+      },
+      {
+        "name": "Regional Office",
+        "city": "Jijiga, Ethiopia",
+        "phone": "+251 25 278 3968",
+        "phoneHref": "tel:+251252783968",
+        "email": "info@aiddev.net"
+      }
+    ]
+  }
+}
